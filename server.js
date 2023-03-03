@@ -14,11 +14,6 @@ app.use(express.static('public'));
 // set use for routes. 
 app.use('/',htmlRoutes);
 app.use('/api',apiRoutes);
-
-// Error response
-app.use((req, res) => {
-    res.status(404).end();
-  });
   
   app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
