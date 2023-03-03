@@ -4,7 +4,7 @@ const util = require('util');
 
 const readNotes = util.promisify(fs.readFile);
 const writeNotes = util.promisify(fs.writeFile);
-const noteId = Math.floor(Math.random() * max);
+const noteId = Math.floor(Math.random() *100);
 class takeNotes{
     // 
     read(){

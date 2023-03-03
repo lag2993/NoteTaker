@@ -1,5 +1,4 @@
 const express = require('express');
-const landP = require('./public/index.html');
 const htmlRoutes = require('./public/routes/htmlRoutes');
 const apiRoutes = require('./public/routes/apiRoutes');
 
