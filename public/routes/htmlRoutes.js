@@ -7,7 +7,7 @@ router.get('/notes',(req,res)=>{
 });
 
 router.get('*',(req,res)=>{
-    res.sendFile(path.join(__dirname, '../public/index.html'))
+    res.sendFile(path.join(__dirname, '../../public/index.html'))
 });
 
 // C:\Users\Seba\bootcamp\HomeworkPush\Module-11 Challenge\Push\NoteTaker\public\index.html
